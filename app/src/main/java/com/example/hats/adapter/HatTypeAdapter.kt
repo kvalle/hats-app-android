@@ -23,6 +23,8 @@ class HatTypeAdapter(private val context: Context, private val dataset: List<Hat
     override fun onBindViewHolder(holder: HatTypeViewHolder, position: Int) {
         val hatType = dataset[position]
         holder.nameTextView.text = context.resources.getString(hatType.name)
+        holder.descriptionTextView.text = context.resources.getString(hatType.description)
+        holder.attributionTextView.text = "Photo by " + context.resources.getString(hatType.attribution)
         holder.imageView.setImageResource(hatType.image)
     }
 
@@ -30,6 +32,8 @@ class HatTypeAdapter(private val context: Context, private val dataset: List<Hat
 
     class HatTypeViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val nameTextView: TextView = view.findViewById(R.id.hat_type_name)
+        val descriptionTextView: TextView = view.findViewById(R.id.hat_type_description)
+        val attributionTextView: TextView = view.findViewById(R.id.hat_type_image_attribution)
         val imageView: ImageView = view.findViewById(R.id.hat_type_image)
     }
 
