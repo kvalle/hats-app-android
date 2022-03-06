@@ -6,6 +6,10 @@ class Datasource {
 
     fun loadHats(): List<HatType> {
         return listOf(
+            HatType(
+                "Fedora",
+                "A soft felt hat with a medium brim and lengthwise crease in the crown."
+            ),
             HatType("Porkpie", "Felt hat with low flat crown and narrow brim."),
             HatType(
                 "Bowler",
