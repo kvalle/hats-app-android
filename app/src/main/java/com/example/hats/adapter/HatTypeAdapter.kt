@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hats.R
@@ -20,13 +21,16 @@ class HatTypeAdapter(private val context: Context, private val dataset: List<Hat
     }
 
     override fun onBindViewHolder(holder: HatTypeViewHolder, position: Int) {
-        holder.nameTextView.text = dataset[position].name
+        val hatType = dataset[position]
+        holder.nameTextView.text = context.resources.getString(hatType.name)
+        holder.imageView.setImageResource(hatType.image)
     }
 
     override fun getItemCount() = dataset.size
 
     class HatTypeViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val nameTextView: TextView = view.findViewById(R.id.hat_type_name)
+        val imageView: ImageView = view.findViewById(R.id.hat_type_image)
     }
 
 }

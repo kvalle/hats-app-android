@@ -1,29 +1,18 @@
 package com.example.hats.data
 
+import com.example.hats.R
 import com.example.hats.model.HatType
 
 class Datasource {
 
     fun loadHats(): List<HatType> {
         return listOf(
-            HatType(
-                "Fedora",
-                "A soft felt hat with a medium brim and lengthwise crease in the crown."
-            ),
-            HatType("Porkpie", "Felt hat with low flat crown and narrow brim."),
-            HatType(
-                "Bowler",
-                "A hard felt hat with a rounded crown created in 1850 by Lock's of St James's, the hatters to Thomas Coke, 2nd Earl of Leicester, for his servants. More commonly known as a Derby in the United States. "
-            ),
-            HatType("Bucket hat", "A soft cotton hat with a wide, downwards-sloping brim."),
-            HatType(
-                "Top hat",
-                "Also known as a beaver hat, a magician's hat, or, in the case of the tallest examples, a stovepipe (or pipestove) hat. A tall, flat-crowned, cylindrical hat worn by men in the 19th and early 20th centuries, now worn only with morning dress or evening dress. Cartoon characters Uncle Sam and Mr. Monopoly are often depicted wearing such hats. Once made from felted beaver fur. "
-            ),
-            HatType(
-                "Fez",
-                "Red felt hat in the shape of a truncated cone, common to Arab-speaking countries."
-            )
+            HatType(R.string.fedora, R.string.fedora_description, R.string.fedora_image_attribution, R.drawable.fedora),
+            HatType(R.string.porkpie, R.string.porkpie_description, R.string.porkpie_image_attribution, R.drawable.porkpie),
+            HatType(R.string.bowler, R.string.bowler_description, R.string.bowler_image_attribution, R.drawable.bowler),
+            HatType(R.string.bucket_hat, R.string.bucket_hat_description, R.string.bucket_hat_image_attribution, R.drawable.bucket_hat),
+            HatType(R.string.top_hat, R.string.top_hat_description, R.string.top_hat_image_attribution, R.drawable.tophat),
+            HatType(R.string.fez, R.string.fez_description, R.string.fez_image_attribution, R.drawable.fez)
         )
     }
 

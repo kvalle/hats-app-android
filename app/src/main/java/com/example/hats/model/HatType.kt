@@ -1,6 +1,11 @@
 package com.example.hats.model
 
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
 data class HatType(
-    val name: String,
-    val description: String
+    @StringRes val name: Int,
+    @StringRes val description: Int,
+    @StringRes val attribution: Int,
+    @DrawableRes val image: Int
 )
