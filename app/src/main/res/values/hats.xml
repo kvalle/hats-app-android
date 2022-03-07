@@ -1,26 +1,29 @@
 <resources>
+    <string name="top_hat">Top hat</string>
+    <string name="top_hat_description">A tall, flat-crowned, cylindrical hat worn by men in the 19th and early 20th centuries.</string>
+    <string name="top_hat_image_attribution">Mabel Amber on Pixabay</string>
+
+    <string name="taqiyah">Taqiyah</string>
+    <string name="taqiyah_description">A round fabric cap worn by Muslim men. </string>
+    <string name="taqiyah_image_attribution">Tehmasip Khan on Pexels</string>
 
     <string name="fedora">Fedora</string>
     <string name="fedora_description">A soft felt hat with a medium brim and lengthwise crease in the crown.</string>
-    <string name="fedora_image_attribution">Kjetil Ree</string>
-
-    <string name="porkpie">Porkpie</string>
-    <string name="porkpie_description">Felt hat with low flat crown and narrow brim.</string>
-    <string name="porkpie_image_attribution"></string>
+    <string name="fedora_image_attribution">Clem Onojeghuo on Unsplash</string>
 
     <string name="bowler">Bowler</string>
-    <string name="bowler_description">A hard felt hat with a rounded crown created in 1850 by Lock\'s of St James\'s, the hatters to Thomas Coke, 2nd Earl of Leicester, for his servants. More commonly known as a Derby in the United States. </string>
-    <string name="bowler_image_attribution">Frank C. Müller</string>
-
-    <string name="bucket_hat">Bucket hat</string>
-    <string name="bucket_hat_description">A soft cotton hat with a wide, downwards-sloping brim.</string>
-    <string name="bucket_hat_image_attribution">Liftarn on Wikipedia</string>
-
-    <string name="top_hat">Top hat</string>
-    <string name="top_hat_description">Also known as a beaver hat, a magician\'s hat, or, in the case of the tallest examples, a stovepipe (or pipestove) hat. A tall, flat-crowned, cylindrical hat worn by men in the 19th and early 20th centuries, now worn only with morning dress or evening dress. Cartoon characters Uncle Sam and Mr. Monopoly are often depicted wearing such hats. Once made from felted beaver fur.</string>
-    <string name="top_hat_image_attribution"></string>
+    <string name="bowler_description">A hard felt hat with a rounded crown, more commonly known as a Derby in the United States.</string>
+    <string name="bowler_image_attribution">Bogdan Siudy on Pexels</string>
 
     <string name="fez">Fez</string>
     <string name="fez_description">Red felt hat in the shape of a truncated cone, common to Arab-speaking countries.</string>
-    <string name="fez_image_attribution">Édouard Hue</string>
+    <string name="fez_image_attribution">Steve Evans on Wikipedia</string>
+
+    <string name="bucket_hat">Bucket hat</string>
+    <string name="bucket_hat_description">A soft cotton hat with a wide, downwards-sloping brim.</string>
+    <string name="bucket_hat_image_attribution">Nathan McDine on Unsplash</string>
+
+    <string name="toque">Toque</string>
+    <string name="toque_description">A tall, pleated, brimless, cylindrical hat traditionally worn by chefs.</string>
+    <string name="toque_image_attribution">Arseny Togulev on Unsplash</string>
 </resources>
